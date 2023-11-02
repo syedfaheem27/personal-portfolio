@@ -5,6 +5,7 @@
   padding: 1.4em 1.2em;
   background-color: rgb(70, 91, 113);
   font-size: 1.4rem;
+  box-shadow: 0px 4px 8px gray;
 }
 .logo {
   color: #fff;
@@ -70,6 +71,7 @@
   inset: 0;
   background: #0f172a;
   z-index: 1;
+  min-height: 300vh;
 }
 .menu {
   color: #ffff;

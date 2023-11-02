@@ -1,0 +1,112 @@
+.container {
+  width: 80%;
+  max-width: 960px;
+  margin: 2.6em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+.container h1 {
+  color: rgb(70, 91, 113);
+  animation: 2s 1 slide-in;
+  width: 100%;
+}
+.content {
+  overflow: hidden;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  animation: 3s 1 alternate fade-in;
+}
+.content p {
+  color: rgb(70, 91, 113, 0.9);
+  font-size: 1.2rem;
+  line-height: 1.3em;
+}
+.content span {
+  color: rgb(255, 136, 0);
+}
+.content button {
+  border: none;
+  cursor: pointer;
+  background-color: inherit;
+  color: red;
+}
+.toast {
+  position: absolute;
+  bottom: 3%;
+  left: 1%;
+  width: max-content;
+  padding: 0.5em 0.9em;
+  background-color: rgb(126, 227, 53);
+  border-radius: 8px;
+  color: #ffff;
+}
+
+@keyframes slide-in {
+  from {
+    margin-left: 100%;
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.social,
+.skills {
+  align-self: flex-start;
+  border: 1px solid red;
+  animation: 3s 1 alternate fade-in;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 0.4em;
+}
+.social a {
+  color: black;
+}
+.skills {
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  width: 100%;
+}
+.skills .underline {
+  margin-top: -0.6em;
+  border: 1px solid rgb(70, 91, 113);
+}
+.skills .icon-container {
+  width: 50%;
+  border: 1px solid green;
+  padding: 1em 0em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0.9em;
+}
+.icon-container span {
+  background: grey;
+}
