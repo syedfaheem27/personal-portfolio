@@ -11,7 +11,9 @@ const NavBar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <div className={styles.logo}>SF</div>
+        <NavLink to="/about" className={styles.logo}>
+          <img src="../assets/own-img.jpeg" alt="Own image" />
+        </NavLink>
         <div
           className={`${styles["hamburger-menu"]} ${
             isOpen ? styles.open : ""

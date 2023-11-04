@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  max-width: 960px;
+  max-width: 1120px;
   margin: 2.6em auto;
   display: flex;
   flex-direction: column;
@@ -12,6 +12,7 @@
   animation: 2s 1 slide-in;
   width: 100%;
 }
+
 .content {
   overflow: hidden;
   flex-grow: 1;
@@ -36,7 +37,7 @@
 }
 .toast {
   position: absolute;
-  bottom: 3%;
+  bottom: 1%;
   left: 1%;
   width: max-content;
   padding: 0.5em 0.9em;
@@ -75,7 +76,6 @@
 .social,
 .skills {
   align-self: flex-start;
-  border: 1px solid red;
   animation: 3s 1 alternate fade-in;
 }
 
@@ -87,6 +87,13 @@
 }
 .social a {
   color: black;
+  display: inline-block;
+  width: 2.2rem;
+}
+.social a img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .skills {
   padding: 1em 0;
@@ -100,13 +107,16 @@
   border: 1px solid rgb(70, 91, 113);
 }
 .skills .icon-container {
-  width: 50%;
-  border: 1px solid green;
+  width: 60%;
   padding: 1em 0em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 0.9em;
 }
-.icon-container span {
-  background: grey;
+
+.icon-container img {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }

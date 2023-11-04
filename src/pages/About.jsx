@@ -15,6 +15,7 @@ const About = () => {
   return (
     <section id="about" className={styles.container}>
       {showToast && <div className={styles.toast}>✅ Email copied.</div>}
+
       <header>
         <h1>Hi, I'm Syed Faheem </h1>
       </header>
@@ -32,7 +33,7 @@ const About = () => {
           and <span>hitting the gym</span>. When i am not coding, you'll
           probably find me playing football or at the gym as i truly believe
           that keeping the body in good health is our duty, otherwise we shall
-          not be able to keep the mind stronger and clear,
+          not be able to keep the mind stronger and clear.
         </p>
         <p>
           As someone with a keen interest in tech and a knack for
@@ -44,12 +45,21 @@ const About = () => {
         </p>
       </section>
       <section id="social-media-handles" className={styles.social}>
-        <a href="mailto:syedfaheem132@gmail.com">Mail</a>
-        <a href="https://github.com/syedfaheem27">Github</a>
-        <a href="https://www.linkedin.com/in/syed-faheem-6285a0261/">
-          Linkedin
+        <a href="mailto:syedfaheem132@gmail.com">
+          <img src="../assets/mail-outline.svg" alt="Mail" />
         </a>
-        <a href="https://twitter.com/faheemsyed_1">Twitter</a>
+        <a href="https://github.com/syedfaheem27" target="blank">
+          <img src="../assets/logo-github.svg" alt="github" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/syed-faheem-6285a0261/"
+          target="blank"
+        >
+          <img src="../assets/logo-linkedin.svg" alt="linked-in" />
+        </a>
+        <a href="https://twitter.com/faheemsyed_1" target="blank">
+          <img src="../assets/logo-twitter.svg" alt="twitter" />
+        </a>
       </section>
 
       <section id="skills" className={styles.skills}>
@@ -58,29 +68,34 @@ const About = () => {
         <div>
           <h3>Languages</h3>
           <div className={styles["icon-container"]}>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JS</span>
-            <span>TS</span>
-            <span>C</span>
+            <img src="../solidIcons/HTML_5.svg" alt="HTML5 logo" />
+            <img src="../solidIcons/CSS_3.svg" alt="CSS3 logo" />
+            <img src="../solidIcons/JS.svg" alt="Java-Script logo" />
+            <img src="../solidIcons/C.svg" alt="C Programming logo" />
           </div>
         </div>
         <div>
           <h3>Technologies</h3>
           <div className={styles["icon-container"]}>
-            <span>React</span>
-            <span>Redux</span>
-            <span>Bootstrap</span>
-            <span>Tailwind</span>
+            <img src="../solidIcons/react.svg" alt="React logo" />
+
+            <img src="../solidIcons/redux.svg" alt="Redux logo" />
+
+            <img src="../solidIcons/bootstrap.svg" alt="Bootstrap logo" />
+
+            <img src="../solidIcons/tailwind.svg" alt="Tailwind logo" />
           </div>
         </div>
         <div>
           <h3>Other Tools</h3>
           <div className={styles["icon-container"]}>
-            <span>Linux</span>
-            <span>Git</span>
-            <span>VScode</span>
-            <span>npm</span>
+            <img src="../solidIcons/linux.svg" alt="Linux logo" />
+
+            <img src="../solidIcons/git.svg" alt="Git logo" />
+
+            <img src="../solidIcons/VS-Code.svg" alt="Vs Code logo" />
+
+            <img src="../solidIcons/NPM.svg" alt="Npm logo" />
           </div>
         </div>
       </section>

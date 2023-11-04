@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal Portfolio built with React",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html assets/**/*",
     "build": "parcel build index.html"
   },
   "repository": {
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/syedfaheem27/personal-portfolio#readme",
   "devDependencies": {
     "parcel": "^2.10.1",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "postcss": "^8.4.31",
     "process": "^0.11.10"
   },
