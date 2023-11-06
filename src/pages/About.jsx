@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./About.module.css";
+import SocialHandles from "../components/SocialHandles";
 const About = () => {
   const [showToast, setShowToast] = useState(false);
   useEffect(() => {
@@ -48,23 +49,8 @@ const About = () => {
               <button onClick={copyMail}> faheem.2719.dev@gmail.com</button>
             </p>
           </section>
-          <section id="social-media-handles" className={styles.social}>
-            <a href="mailto:syedfaheem132@gmail.com">
-              <img src="../assets/mail-outline.svg" alt="Mail" />
-            </a>
-            <a href="https://github.com/syedfaheem27" target="blank">
-              <img src="../assets/logo-github.svg" alt="github" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/syed-faheem-6285a0261/"
-              target="blank"
-            >
-              <img src="../assets/logo-linkedin.svg" alt="linked-in" />
-            </a>
-            <a href="https://twitter.com/faheemsyed_1" target="blank">
-              <img src="../assets/logo-twitter.svg" alt="twitter" />
-            </a>
-          </section>
+
+          <SocialHandles class={styles["add-social"]} />
 
           <section id="skills" className={styles.skills}>
             <h2>My Skills</h2>
@@ -110,23 +96,7 @@ const About = () => {
           <span>&copy;</span>
           <strong>syed faheem</strong>
         </section>
-        <section className={styles.social}>
-          <a href="mailto:syedfaheem132@gmail.com">
-            <img src="../assets/mail-outline.svg" alt="Mail" />
-          </a>
-          <a href="https://github.com/syedfaheem27" target="blank">
-            <img src="../assets/logo-github.svg" alt="github" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/syed-faheem-6285a0261/"
-            target="blank"
-          >
-            <img src="../assets/logo-linkedin.svg" alt="linked-in" />
-          </a>
-          <a href="https://twitter.com/faheemsyed_1" target="blank">
-            <img src="../assets/logo-twitter.svg" alt="twitter" />
-          </a>
-        </section>
+        <SocialHandles class={styles["social-footer"]} />
       </footer>
     </>
   );
