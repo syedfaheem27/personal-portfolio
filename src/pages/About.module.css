@@ -1,7 +1,7 @@
 .container {
   width: 80%;
   max-width: 1120px;
-  margin: 2.6em auto;
+  margin: 8rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,13 +34,13 @@
   border: none;
   cursor: pointer;
   background-color: inherit;
-  color: red;
+  color: brown;
   font-size: 1.1rem;
 }
 .toast {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
   width: max-content;
   padding: 0.5em 0.9em;
   background-color: rgb(126, 227, 53);
@@ -104,34 +104,13 @@
   grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   gap: 0.9em;
 }
+.icon-container > div {
+  display: flex;
+  align-items: center;
+}
 
 .icon-container img {
-  width: 50%;
-  height: 100%;
+  width: 45%;
   object-fit: cover;
   object-position: center;
-}
-.footer {
-  background: #e5e7eb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2.6em 2em;
-  animation: 3s 1 alternate fade-in;
-  gap: 0.2em;
-}
-.footer .copy {
-  font-size: 1.3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.4em;
-  text-transform: capitalize;
-}
-.footer .social-footer {
-  gap: 2em;
-}
-.footer .social-footer a {
-  width: 2rem;
 }

@@ -1,4 +1,10 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,13 +36,14 @@
 }
 
 .hamburger-menu {
-  position: relative;
+  position: fixed;
   width: 24px;
   height: 24px;
+  right: 1.5rem;
+  top: 32px;
   cursor: pointer;
-  transform: rotate(0);
   transition: transform 0.25s ease-in;
-  z-index: 3;
+  z-index: 300;
 }
 @media (min-width: 640px) {
   .hamburger-menu {
@@ -75,11 +82,13 @@
 }
 
 .menu-container {
-  position: absolute;
+  position: fixed;
   inset: 0;
   background: #0f172a;
-  z-index: 1;
-  min-height: 300vh;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .menu {
   color: #ffff;
@@ -91,4 +100,7 @@
   gap: 2em;
   margin-top: 4em;
   font-size: 1.5rem;
+}
+.menu-container footer {
+  background-color: inherit;
 }

@@ -1,0 +1,32 @@
+.footer {
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.6em 2em;
+  animation: 3s 1 alternate fade-in;
+  gap: 0.2em;
+}
+.footer .copy {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4em;
+  text-transform: capitalize;
+}
+.footer .social-footer {
+  gap: 2em;
+}
+.footer .social-footer a {
+  width: 2rem;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

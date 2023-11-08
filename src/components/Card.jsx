@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styles from "./Card.module.css";
+import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 
-const Card = ({ data: { title, description, image, techStack } }) => {
+const Card = ({
+  data: { title, description, image, techStack, liveLink, githubLink },
+}) => {
+  const imgRef = useRef(null);
+  const isIntersecting = useIntersectionObserver(imgRef);
+
   const techString = techStack.join("");
   return (
     <div className={styles.card}>
       <div className={styles["img-container"]}>
-        <img src={image} alt={title} />
+        <img ref={imgRef} src={isIntersecting ? image : ""} alt={title} />
       </div>
       <div className={styles.content}>
         <h2>{title}</h2>
@@ -15,8 +21,8 @@ const Card = ({ data: { title, description, image, techStack } }) => {
         </div>
         <p className={styles.description}>{description}</p>
         <div className={styles.social}>
-          <a href="#">Live</a>
-          <a href="#">Code</a>
+          <a href={liveLink}>Live</a>
+          <a href={githubLink}>Code</a>
         </div>
       </div>
     </div>
