@@ -18,10 +18,10 @@ export function useIntersectionObserver(imgRef) {
     }
     const observer = new IntersectionObserver(obsCallback, options);
 
-    if (imgRef) observer.observe(imgRef.current);
+    if (imgRef.current) observer.observe(imgRef.current);
 
     return () => {
-      if (imgRef) observer.unobserve(imgRef.current);
+      if (imgRef.current) observer.unobserve(imgRef.current);
     };
   }, []);
 

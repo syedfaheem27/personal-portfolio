@@ -60,16 +60,22 @@ const About = () => {
               <h3>Languages</h3>
               <div className={styles["icon-container"]}>
                 <div>
-                  <img src="../solidIcons/HTML_5.svg" alt="HTML5 logo" />
+                  <img src="./assets/solid-logos/HTML_5.svg" alt="HTML5 logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/CSS_3.svg" alt="CSS3 logo" />
+                  <img src="./assets/solid-logos/CSS_3.svg" alt="CSS3 logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/JS.svg" alt="Java-Script logo" />
+                  <img
+                    src="./assets/solid-logos/JS.svg"
+                    alt="Java-Script logo"
+                  />
                 </div>
                 <div>
-                  <img src="../solidIcons/C.svg" alt="C Programming logo" />
+                  <img
+                    src="./assets/solid-logos/C.svg"
+                    alt="C Programming logo"
+                  />
                 </div>
               </div>
             </div>
@@ -77,16 +83,22 @@ const About = () => {
               <h3>Technologies</h3>
               <div className={styles["icon-container"]}>
                 <div>
-                  <img src="../solidIcons/react.svg" alt="React logo" />
+                  <img src="./assets/solid-logos/react.svg" alt="React logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/redux.svg" alt="Redux logo" />
+                  <img src="./assets/solid-logos/redux.svg" alt="Redux logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/bootstrap.svg" alt="Bootstrap logo" />
+                  <img
+                    src="./assets/solid-logos/bootstrap.svg"
+                    alt="Bootstrap logo"
+                  />
                 </div>
                 <div>
-                  <img src="../solidIcons/tailwind.svg" alt="Tailwind logo" />
+                  <img
+                    src="./assets/solid-logos/tailwind.svg"
+                    alt="Tailwind logo"
+                  />
                 </div>
               </div>
             </div>
@@ -94,16 +106,19 @@ const About = () => {
               <h3>Other Tools</h3>
               <div className={styles["icon-container"]}>
                 <div>
-                  <img src="../solidIcons/linux.svg" alt="Linux logo" />
+                  <img src="./assets/solid-logos/linux.svg" alt="Linux logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/git.svg" alt="Git logo" />
+                  <img src="./assets/solid-logos/git.svg" alt="Git logo" />
                 </div>
                 <div>
-                  <img src="../solidIcons/VS-Code.svg" alt="Vs Code logo" />
+                  <img
+                    src="./assets/solid-logos/VS-Code.svg"
+                    alt="Vs Code logo"
+                  />
                 </div>
                 <div>
-                  <img src="../solidIcons/NPM.svg" alt="Npm logo" />
+                  <img src="./assets/solid-logos/NPM.svg" alt="Npm logo" />
                 </div>
               </div>
             </div>

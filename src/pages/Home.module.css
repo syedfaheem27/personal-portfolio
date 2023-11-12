@@ -1,0 +1,68 @@
+.container {
+  width: 90%;
+  max-width: 1320px;
+  margin: 8rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5em;
+  min-height: 80vh;
+}
+
+.img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (min-width: 990px) {
+  .container {
+    flex-direction: row;
+    gap: 0.5em;
+  }
+}
+.content {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.5rem;
+  color: rgb(45, 57, 69);
+  text-align: center;
+}
+.content h1 {
+  font-size: 1.8rem;
+}
+.content .name {
+  color: cyan;
+}
+.content a {
+  background-color: #f3f2f278;
+  padding: 0.8em 1.6em;
+  border-radius: 100px;
+  color: rgb(45, 57, 69);
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
+  border: 1px solid rgb(45, 57, 69);
+}
+.content a span:last-child {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.content span:last-child img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.content a:hover {
+  background-color: #e1e1e12f;
+  color: rgb(45, 57, 69, 0.7);
+  border: 1px solid rgb(45, 57, 69, 0.7);
+}

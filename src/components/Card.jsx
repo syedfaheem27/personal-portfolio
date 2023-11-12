@@ -8,11 +8,13 @@ const Card = ({
   const imgRef = useRef(null);
   const isIntersecting = useIntersectionObserver(imgRef);
 
-  const techString = techStack.join("");
+  const techString = techStack.join(", ");
   return (
     <div className={styles.card}>
       <div className={styles["img-container"]}>
-        <img ref={imgRef} src={isIntersecting ? image : ""} alt={title} />
+        <a href={liveLink}>
+          <img ref={imgRef} src={isIntersecting ? image : ""} alt={title} />
+        </a>
       </div>
       <div className={styles.content}>
         <h2>{title}</h2>
@@ -21,8 +23,12 @@ const Card = ({
         </div>
         <p className={styles.description}>{description}</p>
         <div className={styles.social}>
-          <a href={liveLink}>Live</a>
-          <a href={githubLink}>Code</a>
+          <a href={liveLink} target="blank">
+            Live
+          </a>
+          <a href={githubLink} target="blank">
+            Code
+          </a>
         </div>
       </div>
     </div>

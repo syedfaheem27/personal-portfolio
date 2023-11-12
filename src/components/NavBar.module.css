@@ -1,28 +1,41 @@
-.navbar {
+.container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 6rem;
   z-index: 100;
+  padding: 1em 0;
+  background-color: rgb(70, 91, 113);
+  box-shadow: 0px 4px 8px gray;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4em 1.2em;
-  background-color: rgb(70, 91, 113);
-  font-size: 1.4rem;
-  box-shadow: 0px 4px 8px gray;
+  font-size: 1.2rem;
 }
 .logo {
   width: 64px;
   height: 64px;
   overflow: hidden;
   border-radius: 50%;
+  transition: transform 250ms ease-in;
 }
 .logo img {
   width: 100%;
   object-fit: cover;
   object-position: center -10px;
+}
+.logo:hover {
+  transform: scale(1.5);
 }
 .nav-list {
   list-style-type: none;
@@ -84,7 +97,7 @@
 .menu-container {
   position: fixed;
   inset: 0;
-  background: #0f172a;
+  background: rgb(70, 91, 113);
   z-index: 101;
   display: flex;
   flex-direction: column;

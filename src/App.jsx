@@ -9,6 +9,7 @@ import {
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Navigate replace={true} to="/about" />,
+        element: <Navigate replace={true} to="/home" />,
+      },
+      {
+        path: "/home",
+        element: <Home />,
       },
       {
         path: "about",

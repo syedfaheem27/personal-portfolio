@@ -1,14 +1,24 @@
 const mockData = [
   {
     id: 1,
-    title: "Project-1",
-    image:
-      "https://plus.unsplash.com/premium_photo-1664361480105-33afc4559c40?q=80&w=1223&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Wild Oasis | Nirvana",
+    image: "./assets/project-images/nirvana.png",
+    techStack: [
+      "React",
+      "React-Router",
+      "React-Query",
+      "Supabase",
+      "Recharts",
+      "React-Hook-Form",
+      "React-Hot-Toast",
+      "React-Error-Boundary",
+      "React-Icons",
+      "Styled-Components",
+    ],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "A web application for a small boutique hotel with beautiful wooden cabins. The application allows a signed-in user to create and edit a cabin,confirm and delete a booking and change the hotel settings. It has a descriptive dashboard that represents the sales,bookings, check-ins and the occupancy rate and also displays beautiful charts denoting the sales and the stay duration summary",
+    liveLink: "https://wild-oasis-nirvana.netlify.app/",
+    githubLink: "https://github.com/syedfaheem27/nirvana",
   },
   {
     id: 2,
