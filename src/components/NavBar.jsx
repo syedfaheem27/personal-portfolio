@@ -23,7 +23,7 @@ const NavBar = () => {
       </div>
       <div className={styles.container}>
         <nav className={styles.navbar}>
-          <NavLink to="/about" className={styles.logo}>
+          <NavLink to="/" className={styles.logo}>
             <img src="./assets/outline-logos/own-img.jpeg" alt="Own image" />
           </NavLink>
           <ul className={styles["nav-list"]}>
