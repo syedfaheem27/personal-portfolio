@@ -99,15 +99,21 @@
   border: 1px solid rgb(70, 91, 113);
 }
 .skills .icon-container {
-  width: 75%;
+  width: 100%;
   padding: 1em 0em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
   gap: 0.9em;
 }
 .icon-container > div {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 620px) {
+  .icon-container > div {
+    justify-content: flex-start;
+  }
 }
 
 .icon-container img {
