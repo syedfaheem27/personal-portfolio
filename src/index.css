@@ -10,6 +10,19 @@
   color: #ffff;
   text-decoration: none;
 }
+/*cyan and it's color variations*/
+:root {
+  --color-bg-primary: rgb(8, 51, 68);
+  --color-bg-link: rgb(17, 24, 39, 0.1); /*gray*/
+  --color-bg-footer: rgb(8, 51, 68, 0.3);
+  --color-bg-content: #ecfeff;
+  --color-txt-500: #06b6d4;
+  --color-txt-copy: #155e75;
+  --color-txt-900: #164e63;
+}
+body {
+  background: var(--color-bg-content);
+}
 
 .active {
   color: red;

@@ -15,6 +15,14 @@ const Projects = () => {
             <Card key={data.id} data={data} />
           ))}
         </section>
+        <a
+          href="https://github.com/syedfaheem27?tab=repositories"
+          target="blank"
+          className={styles["load-more-btn"]}
+        >
+          <span>Load more</span>
+          <span>%Icon%</span>
+        </a>
       </div>
       <Footer />
     </>

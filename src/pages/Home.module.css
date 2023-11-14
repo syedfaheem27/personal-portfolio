@@ -1,3 +1,19 @@
+.resume {
+  color: var(--color-txt-900);
+  font-weight: bold;
+  position: fixed;
+  top: 50%;
+  left: 8px;
+  transform: translateY(-50%);
+  padding: 0.4em 1em;
+  background: var(--color-bg-link);
+  border-radius: 4px;
+  transition: opacity 200ms ease-in-out;
+}
+.resume:hover {
+  opacity: 0.9;
+}
+
 .container {
   width: 90%;
   max-width: 1320px;
@@ -29,27 +45,27 @@
   align-items: center;
   gap: 1em;
   font-size: 1.5rem;
-  color: rgb(45, 57, 69);
+  color: var(--color-txt-900);
   text-align: center;
 }
 .content h1 {
   font-size: 1.8rem;
 }
 .content .name {
-  color: cyan;
+  color: var(--color-txt-500);
 }
 .content a {
-  background-color: #f3f2f278;
+  background-color: var(--color-bg-link);
   padding: 0.8em 1.6em;
   border-radius: 100px;
-  color: rgb(45, 57, 69);
+  color: var(--color-txt-900);
   font-weight: bold;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   gap: 0.5em;
   justify-content: center;
-  border: 1px solid rgb(45, 57, 69);
+  border: 1px solid var(--color-txt-900);
 }
 .content a span:last-child {
   width: 2.5rem;

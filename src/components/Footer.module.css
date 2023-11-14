@@ -1,5 +1,5 @@
 .footer {
-  background: rgb(70, 91, 113, 0.3);
+  background: var(--color-bg-footer);
   display: flex;
   flex-direction: column;
   align-items: center;

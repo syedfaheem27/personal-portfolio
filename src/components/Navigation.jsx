@@ -31,15 +31,7 @@ const Navigation = () => {
           Projects
         </NavLink>
       </li>
-      <li>
-        {" "}
-        <NavLink
-          to="resume"
-          className={({ isActive }) => (isActive ? "active" : "")}
-        >
-          Resume
-        </NavLink>
-      </li>
+      <li> </li>
     </>
   );
 };

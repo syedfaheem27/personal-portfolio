@@ -22,36 +22,33 @@ const mockData = [
   },
   {
     id: 2,
-    title: "Project-2",
-    image:
-      "https://media.istockphoto.com/id/1463823963/photo/asian-woman-planning-budget-and-using-calculator-on-smartphone.webp?b=1&s=170667a&w=0&k=20&c=-PfVQq8eIvQ_1gkVJ0la0NgPr0WBoLnLcnCDYAjH6Zk=",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Weather App",
+    image: "./assets/project-images/weather.png",
+    techStack: ["React", "Geocoding API", "Open Meteo weather API"],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "A weather forecasting application that is built using the class based React components and makes use of the geocoding API and the open meteo weather API to get you the forcast that you need.",
+    liveLink: "https://weather-forecast-3wwtdni63-syedfaheem27.vercel.app/",
+    githubLink: "https://github.com/syedfaheem27/weather-forecast",
   },
   {
     id: 3,
-    title: "Project-3",
-    image:
-      "https://media.istockphoto.com/id/1435661969/photo/close-up-of-children-holding-a-planet-at-the-beach.webp?b=1&s=170667a&w=0&k=20&c=Sxw1A1n3Y9ZZiR-hQBtKSqBkjYN8J1Wgs4HLbp2yh2c=",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Pizza-Loader",
+    image: "./assets/project-images/react-pizza.png",
+    techStack: ["React", "Vite", "Redux", "React-Router-Dom"],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "React Pizza App is a web application developed with React and bundled using Vite. The app integrates with React Redux and React Router DOM for state management and routing. It utilizes a reverse geocoding API for location-based services and interacts with a third-party API to load menus, create orders, retrieve orders, and update orders. Additionally, it leverages the navigator Web API for fetching current user coordinates.",
+    liveLink: "https://pizza-loader.vercel.app/",
+    githubLink: "https://github.com/syedfaheem27/pizza-loader",
   },
   {
     id: 4,
-    title: "Project-4",
-    image:
-      "https://images.unsplash.com/photo-1519865885898-a54a6f2c7eea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BsYXNofGVufDB8fDB8fHww",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Forkify",
+    image: "./assets/project-images/forkify-png.png",
+    techStack: ["Vanilla JS", "Fracty", "Parcel", "Sass"],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "Forkify is a recipe search application that allows users to search for various recipes. It's built following the Model-View-Controller (MVC) architecture for better organization and maintainability of code. To improve the efficiency of the application, the createContextualFragment() web API has been used to create a Document fragment, thus enhancing DOM manipulation.",
+    liveLink: "https://faheem-forkify.netlify.app/",
+    githubLink: "https://github.com/syedfaheem27/forkify-faheem",
   },
   {
     id: 5,
