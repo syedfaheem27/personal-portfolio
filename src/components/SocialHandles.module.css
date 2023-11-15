@@ -5,7 +5,6 @@
   padding: 1em 0.4em;
 }
 .social a {
-  color: black;
   display: inline-block;
   width: 2.2rem;
 }
@@ -13,4 +12,8 @@
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+.social a img:hover {
+  filter: invert(79%) sepia(61%) saturate(900%) hue-rotate(790deg)
+    brightness(75%) contrast(90%);
 }

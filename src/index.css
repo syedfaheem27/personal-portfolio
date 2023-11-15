@@ -4,26 +4,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  /* Primary colors for light mode */
+  --primary-color: #0f172acd;
+
+  /* Secondary colors for light mode */
+  --secondary-color: #1a263970;
+
+  /* Accent color for light mode */
+  --accent-color: #3a506b;
+
+  /* Background colors for light mode */
+  --background-color: #f5f5f5;
+  --background-light: #ffffff;
+
+  /* Text colors for light mode */
+  --text-color: #333333;
+  --text-light: #ffffff;
+  --text-dark: rgb(21, 21, 21);
+  --text-active: rgb(255, 0, 0);
 }
 
 * a {
-  color: #ffff;
+  color: var(--text-light);
   text-decoration: none;
 }
-/*cyan and it's color variations*/
-:root {
-  --color-bg-primary: rgb(8, 51, 68);
-  --color-bg-link: rgb(17, 24, 39, 0.1); /*gray*/
-  --color-bg-footer: rgb(8, 51, 68, 0.3);
-  --color-bg-content: #ecfeff;
-  --color-txt-500: #06b6d4;
-  --color-txt-copy: #155e75;
-  --color-txt-900: #164e63;
-}
+
 body {
-  background: var(--color-bg-content);
+  background: var(--background-light);
 }
 
 .active {
-  color: red;
+  color: var(--text-active);
 }

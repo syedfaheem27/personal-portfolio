@@ -8,7 +8,7 @@
   gap: 1.5em;
 }
 .container h1 {
-  color: rgb(70, 91, 113);
+  color: var(--primary-color);
   animation: 2s 1 slide-in;
   width: 100%;
   font-size: 2.3rem;
@@ -23,18 +23,18 @@
   animation: 3s 1 alternate fade-in;
 }
 .content p {
-  color: rgb(70, 91, 113, 0.9);
+  color: var(--text-color);
   font-size: 1.3rem;
-  line-height: 1.3em;
+  line-height: 1.25em;
 }
 .content span {
-  color: rgb(255, 136, 0);
+  color: var(--accent-color);
 }
 .content button {
   border: none;
   cursor: pointer;
   background-color: inherit;
-  color: brown;
+  color: var(--text-active);
   font-size: 1.1rem;
 }
 .toast {
@@ -43,9 +43,9 @@
   left: 1rem;
   width: max-content;
   padding: 0.5em 0.9em;
-  background-color: rgb(126, 227, 53);
+  background-color: rgb(111, 177, 63);
   border-radius: 8px;
-  color: #ffff;
+  color: var(--text-light);
 }
 
 @keyframes slide-in {
@@ -96,7 +96,7 @@
 }
 .skills .underline {
   margin-top: -0.6em;
-  border: 1px solid rgb(70, 91, 113);
+  border: 1px solid var(--secondary-color);
 }
 .skills .icon-container {
   width: 100%;
