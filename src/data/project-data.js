@@ -67,8 +67,7 @@ const mockData = [
     techStack: ["HTML5", "CSS3", "vanilla JS", "Intersection Observer API"],
     description:
       "It is a marketing website designed for the Bankist app. It showcases various features and functionalities of the app in an engaging manner. Notably, this project utilizes the Intersection Observer API along with vanilla JavaScript to implement several key features, including lazy loading of images, revealing elements on scroll, and enhancing user experience with smooth scrolling.",
-    liveLink:
-      "https://vercel.com/syedfaheem27/bankist-marketting-website/EhVDWR1Vm6C6YrEauLAfnhkSL9Wu",
+    liveLink: "https://bankist-marketting-website.vercel.app/",
     githubLink: "https://github.com/syedfaheem27/bankist-app",
   },
 ];
