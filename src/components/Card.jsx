@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef } from "react";
 import styles from "./Card.module.css";
 import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 
@@ -12,7 +12,7 @@ const Card = ({
   return (
     <div className={styles.card}>
       <div className={styles["img-container"]}>
-        <a href={liveLink}>
+        <a href={liveLink} target="blank">
           <img ref={imgRef} src={isIntersecting ? image : ""} alt={title} />
         </a>
       </div>
@@ -24,10 +24,16 @@ const Card = ({
         <p className={styles.description}>{description}</p>
         <div className={styles.social}>
           <a href={liveLink} target="blank">
-            Live
+            <img
+              src="./assets/outline-logos/monitor.svg"
+              alt="Live Link Logo"
+            />
           </a>
           <a href={githubLink} target="blank">
-            Code
+            <img
+              src="./assets/outline-logos/logo-github.svg"
+              alt="Github Logo"
+            />
           </a>
         </div>
       </div>

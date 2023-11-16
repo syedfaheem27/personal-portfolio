@@ -8,23 +8,24 @@
 }
 :root {
   /* Primary colors for light mode */
-  --primary-color: #0f172acd;
+  --primary-color: #013346f1;
 
   /* Secondary colors for light mode */
-  --secondary-color: #1a263970;
+  --secondary-color: #1a26395f;
 
   /* Accent color for light mode */
-  --accent-color: #3a506b;
+  --accent-color: #059669;
 
   /* Background colors for light mode */
   --background-color: #f5f5f5;
   --background-light: #ffffff;
+  --background-dark: rgba(131, 131, 131, 0.436);
 
   /* Text colors for light mode */
   --text-color: #333333;
   --text-light: #ffffff;
   --text-dark: rgb(21, 21, 21);
-  --text-active: rgb(255, 0, 0);
+  --text-active: #e11d48;
 }
 
 * a {

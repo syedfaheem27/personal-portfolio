@@ -90,6 +90,12 @@ const About = () => {
                 </div>
                 <div>
                   <img
+                    src="./assets/solid-logos/react-query.svg"
+                    alt="React Query logo"
+                  />
+                </div>
+                <div>
+                  <img
                     src="./assets/solid-logos/bootstrap.svg"
                     alt="Bootstrap logo"
                   />
@@ -98,6 +104,18 @@ const About = () => {
                   <img
                     src="./assets/solid-logos/tailwind.svg"
                     alt="Tailwind logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/solid-logos/styled-comp.svg"
+                    alt="Styled Components logo"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/solid-logos/material-ui.svg"
+                    alt="Material UI logo"
                   />
                 </div>
               </div>
@@ -119,6 +137,12 @@ const About = () => {
                 </div>
                 <div>
                   <img src="./assets/solid-logos/NPM.svg" alt="Npm logo" />
+                </div>
+                <div>
+                  <img
+                    src="./assets/solid-logos/postman.svg"
+                    alt="Postman logo"
+                  />
                 </div>
               </div>
             </div>

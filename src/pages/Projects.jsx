@@ -20,8 +20,8 @@ const Projects = () => {
           target="blank"
           className={styles["load-more-btn"]}
         >
-          <span>Load more</span>
-          <span>%Icon%</span>
+          <span>See All</span>
+          <img src="./assets/outline-logos/logo-github.svg" alt="Github Logo" />
         </a>
       </div>
       <Footer />

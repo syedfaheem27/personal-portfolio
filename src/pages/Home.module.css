@@ -1,15 +1,15 @@
 .resume {
   position: fixed;
   top: 50%;
-  left: 8px;
+  left: 4px;
   transform: translateY(-50%);
-  padding: 0.3em 0.6em;
-  background: var(--primary-color);
+  padding: 0.1em;
+  background: var(--background-dark);
   border-radius: 4px;
   transition: opacity 200ms ease-in-out;
 }
 .resume:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .container {

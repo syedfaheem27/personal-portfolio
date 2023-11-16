@@ -11,7 +11,7 @@ const Home = () => {
         target="blank"
         className={styles.resume}
       >
-        <img src="./assets/outline-logos/cv-resume.svg" alt="" />
+        <img src="./assets/outline-logos/resume.png" alt="" />
       </a>
       <div className={styles.container}>
         <div className={styles.img}>

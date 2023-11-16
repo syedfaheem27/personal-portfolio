@@ -52,25 +52,24 @@ const mockData = [
   },
   {
     id: 5,
-    title: "Project-5",
-    image:
-      "https://images.unsplash.com/photo-1459802071246-377c0346da93?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3BsYXNofGVufDB8fDB8fHww",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Personal Portfolio",
+    image: "./assets/project-images/portfolio.png",
+    techStack: ["React", "React-Router-Dom", "Parcel"],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "This personal portfolio is built with React and bundled using parcel offering a showcase of my skills, experiences, and projects. The portfolio includes three main pages: Home, About, and Projects, providing visitors with a comprehensive view of my work.",
+    liveLink: "https://fam-portfolio.netlify.app/",
+    githubLink: "https://github.com/syedfaheem27/personal-portfolio",
   },
   {
     id: 6,
-    title: "Project-6",
-    image:
-      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3BsYXNofGVufDB8fDB8fHww",
-    techStack: ["React", "Redux", "React-Query", "Supabase"],
+    title: "Bankist Marketing",
+    image: "./assets/project-images/bankist-marketing.png",
+    techStack: ["HTML5", "CSS3", "vanilla JS", "Intersection Observer API"],
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque dolorum doloremque ipsam tempore quibusdam omnis laboriosam expedita fuga explicabo laudantium?",
-    liveLink: "#",
-    githubLink: "#",
+      "It is a marketing website designed for the Bankist app. It showcases various features and functionalities of the app in an engaging manner. Notably, this project utilizes the Intersection Observer API along with vanilla JavaScript to implement several key features, including lazy loading of images, revealing elements on scroll, and enhancing user experience with smooth scrolling.",
+    liveLink:
+      "https://vercel.com/syedfaheem27/bankist-marketting-website/EhVDWR1Vm6C6YrEauLAfnhkSL9Wu",
+    githubLink: "https://github.com/syedfaheem27/bankist-app",
   },
 ];
 

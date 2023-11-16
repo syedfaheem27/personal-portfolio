@@ -100,13 +100,14 @@
 }
 .skills .icon-container {
   width: 100%;
-  padding: 1em 0em;
+  padding: 1.3em 0em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
   gap: 0.9em;
 }
 .icon-container > div {
   display: flex;
+  padding: 0.7em 0;
   align-items: center;
   justify-content: center;
 }
@@ -117,7 +118,8 @@
 }
 
 .icon-container img {
-  width: 45%;
+  max-width: 100px;
+  width: 70%;
   object-fit: cover;
   object-position: center;
 }

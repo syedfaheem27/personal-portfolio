@@ -42,10 +42,15 @@
   gap: 1em;
 }
 .social a {
+  padding: 0.4em 2.9em;
+  border-radius: 100px;
+  border: 1px solid var(--accent-color);
+}
+.social a img {
+  width: 1.6rem;
+}
+.social a:hover {
   background: var(--accent-color);
-  padding: 0.3em 1.6em;
-  border-radius: 6px;
-  font-weight: 700;
 }
 @media (min-width: 960px) {
   .card {
