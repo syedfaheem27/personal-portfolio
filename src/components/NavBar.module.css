@@ -68,7 +68,7 @@
   left: 0;
   right: 0;
   top: 3px;
-  border: 1px solid black;
+  border: 1px solid var(--text-light);
   transition: transform 0.25s ease-in;
 }
 .hamburger-middle {
