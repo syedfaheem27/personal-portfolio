@@ -25,8 +25,11 @@ const About = () => {
 
           <section className={styles.content}>
             <p>
-              As ively engaged in honing my skills in JavaScript and React.js. These technologies not only captivate me but also serve as the foundation
-              for my current pursuits and future ambitions in the web development landscape.
+              As a self-taught front-end developer based in India,
+              I'm deeply passionate about translating intricate
+              problems into elegant and user-friendly solutions.
+              My enthusiasm for mathematics fuels my approach to
+              simplifying complexities within web development.
             </p>
             <p>
               Driven by an insatiable curiosity and a belief that there's always more to discover,
