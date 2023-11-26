@@ -25,25 +25,30 @@ const About = () => {
 
           <section className={styles.content}>
             <p>
-              I am a self-taught front-end developer based in India. As someone,
-              who has always loved mathematics, I enjoy transforming complex
-              problems into simple and intuitive solutions. I love to explore
-              and learn new things and i go with the philosophy that i never
-              know anything which always keeps me motivated to search for more
-              and never settle for less. Currently, most of my endeavours are in
-              javascript and React.js
+              As ively engaged in honing my skills in JavaScript and React.js. These technologies not only captivate me but also serve as the foundation
+              for my current pursuits and future ambitions in the web development landscape.
             </p>
             <p>
-              Aside from that, i love <span>reading</span>,{" "}
-              <span>football</span> and <span>hitting the gym</span>. When i am
-              not coding, you'll probably find me playing football or at the gym
-              as i truly believe that keeping the body in good health is our
-              duty, otherwise we shall not be able to keep the mind stronger and
-              clear.
+              Driven by an insatiable curiosity and a belief that there's always more to discover,
+              I continuously seek new knowledge. Embracing the philosophy of "never settling,"
+              I remain motivated to delve deeper into the realms of technology.
             </p>
             <p>
-              As someone with a keen interest in tech and a knack for
-              problem-solving, web development was an obvious path.
+              Presently, I'm actively engaged in honing my skills in JavaScript and React.js.
+              These technologies not only captivate me but also serve as the foundation
+              for my current pursuits and future ambitions in the web development landscape.
+            </p>
+            <p>
+              Beyond my passion for coding, I find immense joy in diverse activities.
+              <span> Reading</span> is a treasured pastime, expanding my horizons beyond technology.
+              <span> Football</span> is my sport of choice, offering exhilarating moments of teamwork and strategy.
+              Equally important to me is maintaining a healthy lifestyle, which leads me to the <span>gym</span> regularly.
+              I firmly believe that a sound body nurtures a resilient mind, vital for problem-solving and innovation.
+            </p>
+
+            <p>
+              Driven by a fascination with technology and a natural inclination for tackling challenges,
+              venturing into web development was a natural progression for me.
             </p>
             <p>
               Let's get in touch. Write me at{" "}
