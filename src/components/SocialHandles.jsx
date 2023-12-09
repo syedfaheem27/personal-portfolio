@@ -16,9 +16,6 @@ const SocialHandles = (props) => {
       >
         <img src="./assets/outline-logos/logo-linkedin.svg" alt="linked-in" />
       </a>
-      <a href="https://twitter.com/faheemsyed_1" target="blank">
-        <img src="../assets/outline-logos/logo-twitter.svg" alt="twitter" />
-      </a>
     </section>
   );
 };
