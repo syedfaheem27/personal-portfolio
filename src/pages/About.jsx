@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
-import styles from "./About.module.css";
+import { useToast } from "../hooks/useToast";
+
 import SocialHandles from "../components/SocialHandles";
 import Footer from "../components/Footer";
-const About = () => {
-  const [showToast, setShowToast] = useState(false);
-  useEffect(() => {
-    if (!showToast) return;
 
-    setTimeout(() => setShowToast(false), 1000);
-  }, [showToast]);
+import styles from "./About.module.css";
+
+const About = () => {
+  const [showToast, setShowToast] = useToast()
+
   function copyMail(e) {
     const mailId = e.target.textContent.trim();
     navigator.clipboard.writeText(mailId);
@@ -21,7 +20,9 @@ const About = () => {
           <h1>Hi, I'm Syed Faheem </h1>
         </header>
         <section id="about">
-          {showToast && <div className={styles.toast}>✅ Email copied.</div>}
+          {showToast &&
+            <div className={styles.toast}>✅ Email copied.</div>
+          }
 
           <section className={styles.content}>
             <p>
