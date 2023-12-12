@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function useToast() {
   const [showToast, setShowToast] = useState(false);
