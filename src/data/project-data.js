@@ -2,7 +2,7 @@ const mockData = [
    {
     id: 1,
     title: "Natours",
-    image: "./assets/project-images/nirvana.png",
+    image: "./assets/project-images/natours.png",
     techStack: [
       "Node",
       "Express",
