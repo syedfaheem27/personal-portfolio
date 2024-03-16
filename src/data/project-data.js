@@ -1,6 +1,25 @@
 const mockData = [
-  {
+   {
     id: 1,
+    title: "Natours",
+    image: "./assets/project-images/nirvana.png",
+    techStack: [
+      "Node",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "Pug",
+      "Parcel"
+    ],
+    description:
+      `An awesome tour booking site built on top of NodeJS. The users are presented with a server side rendered
+website with a beautiful tour map and much more about the tours. Some of the key features of the webiste
+include authentication, authorization, tour booking, user info. updation and credit card payments`,
+    liveLink: "https://natours-fam.onrender.com/",
+    githubLink: "https://github.com/syedfaheem27/natours-faheem",
+  },
+  {
+    id: 2,
     title: "Wild Oasis | Nirvana",
     image: "./assets/project-images/nirvana.png",
     techStack: [
@@ -21,7 +40,7 @@ const mockData = [
     githubLink: "https://github.com/syedfaheem27/nirvana",
   },
   {
-    id: 2,
+    id: 3,
     title: "Admin Dashboard",
     image: "./assets/project-images/admin-dash.png",
     techStack: [
@@ -37,16 +56,6 @@ const mockData = [
     githubLink: "https://github.com/syedfaheem27/Admin-Dashboard",
   },
   {
-    id: 3,
-    title: "Personal Portfolio",
-    image: "./assets/project-images/portfolio.png",
-    techStack: ["React", "React-Router-Dom", "Parcel"],
-    description:
-      "This personal portfolio is built with React and bundled using parcel offering a showcase of my skills, experiences, and projects. The portfolio includes three main pages: Home, About, and Projects, providing visitors with a comprehensive view of my work.",
-    liveLink: "https://fam-portfolio.netlify.app/",
-    githubLink: "https://github.com/syedfaheem27/personal-portfolio",
-  },
-  {
     id: 4,
     title: "Forkify",
     image: "./assets/project-images/forkify-png.png",
@@ -58,16 +67,6 @@ const mockData = [
   },
   {
     id: 5,
-    title: "Weather App",
-    image: "./assets/project-images/weather.png",
-    techStack: ["React", "Geocoding API", "Open Meteo weather API"],
-    description:
-      "A weather forecasting application that is built using the class based React components and makes use of the geocoding API and the open meteo weather API to get you the forcast that you need.",
-    liveLink: "https://weather-forecast-3wwtdni63-syedfaheem27.vercel.app/",
-    githubLink: "https://github.com/syedfaheem27/weather-forecast",
-  },
-  {
-    id: 6,
     title: "Pizza-Loader",
     image: "./assets/project-images/react-pizza.png",
     techStack: ["React", "Vite", "Redux", "React-Router-Dom"],
@@ -75,18 +74,7 @@ const mockData = [
       "React Pizza App is a web application developed with React and bundled using Vite. The app integrates with React Redux and React Router DOM for state management and routing. It utilizes a reverse geocoding API for location-based services and interacts with a third-party API to load menus, create orders, retrieve orders, and update orders. Additionally, it leverages the navigator Web API for fetching current user coordinates.",
     liveLink: "https://pizza-loader.vercel.app/",
     githubLink: "https://github.com/syedfaheem27/pizza-loader",
-  },
-
-  {
-    id: 7,
-    title: "Bankist Marketing",
-    image: "./assets/project-images/bankist-marketing.png",
-    techStack: ["HTML5", "CSS3", "vanilla JS", "Intersection Observer API"],
-    description:
-      "It is a marketing website designed for the Bankist app. It showcases various features and functionalities of the app in an engaging manner. Notably, this project utilizes the Intersection Observer API along with vanilla JavaScript to implement several key features, including lazy loading of images, revealing elements on scroll, and enhancing user experience with smooth scrolling.",
-    liveLink: "https://bankist-marketting-website.vercel.app/",
-    githubLink: "https://github.com/syedfaheem27/bankist-app",
-  },
+  }
 ];
 
 export { mockData };
