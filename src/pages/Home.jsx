@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
       <a
-        href="https://drive.google.com/file/d/1sIbCKLOoklytzlPte9JSg_qCwCw1E5fH/view?usp=sharing"
+        href="https://drive.google.com/file/d/1He3zjkNQgrSAdAGCD8N4jGkXVV178Ft9/view?usp=sharing"
         target="blank"
         className={styles.resume}
       >
