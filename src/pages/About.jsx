@@ -1,7 +1,6 @@
 import { useToast } from "../hooks/useToast";
 
 import SocialHandles from "../components/SocialHandles/SocialHandles";
-import Footer from "../components/Footer/Footer";
 import Languages from '../components/CodingLangs/Languages';
 import Technologies from "../components/Technologies/Technologies";
 
@@ -86,7 +85,6 @@ const About = () => {
           </section>
         </section>
       </div>
-      <Footer />
     </>
   );
 };

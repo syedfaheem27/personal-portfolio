@@ -32,10 +32,6 @@ export const Tech = [
     src: "./assets/solid-logos/tailwind.svg",
   },
   {
-    title: "Styled-Components",
-    src: "./assets/solid-logos/styled-comp.svg",
-  },
-  {
     title: "Material UI",
     src: "./assets/solid-logos/material-ui.svg",
   },

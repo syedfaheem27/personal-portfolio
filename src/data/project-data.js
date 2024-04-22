@@ -1,18 +1,10 @@
-const mockData = [
-   {
+export const PROJECTS = [
+  {
     id: 1,
     title: "Natours",
     image: "./assets/project-images/natours.png",
-    techStack: [
-      "Node",
-      "Express",
-      "MongoDB",
-      "Mongoose",
-      "Pug",
-      "Parcel"
-    ],
-    description:
-      `An awesome tour booking site built on top of NodeJS. The users are presented with a server side rendered
+    techStack: ["Node", "Express", "MongoDB", "Mongoose", "Pug", "Parcel"],
+    description: `An awesome tour booking site built on top of NodeJS. The users are presented with a server side rendered
 website with a beautiful tour map and much more about the tours. Some of the key features of the webiste
 include authentication, authorization, tour booking, user info. updation and credit card payments`,
     liveLink: "https://natours-fam.onrender.com/",
@@ -74,7 +66,5 @@ include authentication, authorization, tour booking, user info. updation and cre
       "React Pizza App is a web application developed with React and bundled using Vite. The app integrates with React Redux and React Router DOM for state management and routing. It utilizes a reverse geocoding API for location-based services and interacts with a third-party API to load menus, create orders, retrieve orders, and update orders. Additionally, it leverages the navigator Web API for fetching current user coordinates.",
     liveLink: "https://pizza-loader.vercel.app/",
     githubLink: "https://github.com/syedfaheem27/pizza-loader",
-  }
+  },
 ];
-
-export { mockData };

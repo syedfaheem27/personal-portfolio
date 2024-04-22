@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Projects.module.css";
 import Card from "../components/Card/Card";
-import { mockData } from "../data/project-data";
-import Footer from "../components/Footer/Footer";
+import { PROJECTS } from "../data/project-data";
 const Projects = () => {
   return (
     <>
@@ -11,7 +10,7 @@ const Projects = () => {
           <h1>My Projects</h1>
         </header>
         <section id="project-cards" className={styles.cards}>
-          {mockData.map((data) => (
+          {PROJECTS.map((data) => (
             <Card key={data.id} data={data} />
           ))}
         </section>
@@ -24,7 +23,6 @@ const Projects = () => {
           <img src="./assets/outline-logos/logo-github.svg" alt="Github Logo" />
         </a>
       </div>
-      <Footer />
     </>
   );
 };
