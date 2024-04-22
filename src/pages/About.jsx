@@ -1,9 +1,12 @@
 import { useToast } from "../hooks/useToast";
 
-import SocialHandles from "../components/SocialHandles";
-import Footer from "../components/Footer";
+import SocialHandles from "../components/SocialHandles/SocialHandles";
+import Footer from "../components/Footer/Footer";
+import Languages from '../components/CodingLangs/Languages';
+import Technologies from "../components/Technologies/Technologies";
 
 import styles from "./About.module.css";
+import Tools from "../components/Tools/Tools";
 
 const About = () => {
   const [showToast, setShowToast] = useToast()
@@ -63,98 +66,23 @@ const About = () => {
           <SocialHandles class={styles["add-social"]} />
 
           <section id="skills" className={styles.skills}>
+
             <h2>My Skills</h2>
+
             <div className={styles.underline}></div>
+
             <div>
-              <h3>Languages</h3>
-              <div className={styles["icon-container"]}>
-                <div>
-                  <img src="./assets/solid-logos/HTML_5.svg" alt="HTML5 logo" />
-                </div>
-                <div>
-                  <img src="./assets/solid-logos/CSS_3.svg" alt="CSS3 logo" />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/JS.svg"
-                    alt="Java-Script logo"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/C.svg"
-                    alt="C Programming logo"
-                  />
-                </div>
-              </div>
+              <Languages />
             </div>
+
             <div>
-              <h3>Technologies</h3>
-              <div className={styles["icon-container"]}>
-                <div>
-                  <img src="./assets/solid-logos/react.svg" alt="React logo" />
-                </div>
-                <div>
-                  <img src="./assets/solid-logos/redux.svg" alt="Redux logo" />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/react-query.svg"
-                    alt="React Query logo"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/bootstrap.svg"
-                    alt="Bootstrap logo"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/tailwind.svg"
-                    alt="Tailwind logo"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/styled-comp.svg"
-                    alt="Styled Components logo"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/material-ui.svg"
-                    alt="Material UI logo"
-                  />
-                </div>
-              </div>
+              <Technologies />
             </div>
+
             <div>
-              <h3>Other Tools</h3>
-              <div className={styles["icon-container"]}>
-                <div>
-                  <img src="./assets/solid-logos/linux.svg" alt="Linux logo" />
-                </div>
-                <div>
-                  <img src="./assets/solid-logos/git.svg" alt="Git logo" />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/VS-Code.svg"
-                    alt="Vs Code logo"
-                  />
-                </div>
-                <div>
-                  <img src="./assets/solid-logos/NPM.svg" alt="Npm logo" />
-                </div>
-                <div>
-                  <img
-                    src="./assets/solid-logos/postman.svg"
-                    alt="Postman logo"
-                  />
-                </div>
-              </div>
+              <Tools />
             </div>
+
           </section>
         </section>
       </div>

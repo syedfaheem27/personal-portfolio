@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styles from "./Card.module.css";
-import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
+import { useIntersectionObserver } from "../../hooks/useIntersectionObserver";
 
 const Card = ({
   data: { title, description, image, techStack, liveLink, githubLink },

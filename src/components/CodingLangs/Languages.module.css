@@ -1,0 +1,25 @@
+.icon-container {
+  width: 100%;
+  padding: 1.3em 0em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(85px, 1fr));
+  gap: 0.9em;
+}
+.icon-container > div {
+  display: flex;
+  padding: 0.7em 0;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 620px) {
+  .icon-container > div {
+    justify-content: flex-start;
+  }
+}
+
+.icon-container img {
+  max-width: 100px;
+  width: 70%;
+  object-fit: cover;
+  object-position: center;
+}

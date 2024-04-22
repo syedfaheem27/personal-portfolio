@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import SocialHandles from "./SocialHandles";
+import SocialHandles from "../SocialHandles/SocialHandles";
 const Footer = () => {
   return (
     <footer className={styles.footer}>

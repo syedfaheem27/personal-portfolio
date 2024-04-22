@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import styles from "./NavBar.module.css";
-import Footer from "./Footer";
+import Footer from "../Footer/Footer";
 import Navigation from "./Navigation";
 
 const NavBar = () => {

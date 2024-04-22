@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import Card from "../components/Card";
+import Card from "../components/Card/Card";
 import { mockData } from "../data/project-data";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer/Footer";
 const Projects = () => {
   return (
     <>
